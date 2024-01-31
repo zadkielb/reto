@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design</title>
+    <style>
+        header {
+            background-color:rgb(61, 58, 58) ;
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            padding: 20px 0;
+        }
+        body {
+            padding: 0x;
+            margin: 0;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: white;
+        }
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 50px;
+            padding: 15px;
+            margin: 10px;
+            display: inline-block;
+            width: 500px;
+        }
+        div img {
+            border-radius: 50px;
+            margin-bottom: 5px;
+            height: auto;
+        }
+        @media (max-width:600px) {
+            .product {
+                width: 90%;
+                margin: 10px auto;
+            }
+            div img{
+               width: 100%;
+            }
+            header {
+                padding: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color: white;">Peliculas Animadas</h1>
+        <button class="Menu">Menu</button>
+    </header>
+
+        <div class="product">
+            <img src="https://ichef.bbci.co.uk/images/ic/640x360/p0915n36.jpg" width="500px">
+            <h2>Pelicula 1</h2>
+            <p>Descripcion de la pelicula</p>
+            <p>$19.99</p>
+            <a href="#" style="text-decoration: none;">Comprar</a>
+        </div>
+        <div class="product">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Stranger_Things_logo.png/440px-Stranger_Things_logo.png" width="500px">
+            <h2>Pelicula 2</h2>
+            <p>Descripcion de la pelicula</p>
+            <p>$14.99</p>
+            <a href="#" style="text-decoration: none;">Comprar</a>
+        </div>
+        <div class="product">
+            <img src="https://ichef.bbci.co.uk/images/ic/640x360/p0915n36.jpg" width="500px">
+            <h2>Pelicula 3</h2>
+            <p>Descripcion de la pelicula</p>
+            <p>$30.99</p>
+            <a href="#" style="text-decoration: none;">Comprar</a>
+        </div>
+</body>
+</html>
